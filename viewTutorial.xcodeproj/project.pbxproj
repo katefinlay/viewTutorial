@@ -21,6 +21,7 @@
 		51F95A4919C18E7D006B5F17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F95A2B19C18E7D006B5F17 /* UIKit.framework */; };
 		51F95A5119C18E7D006B5F17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51F95A4F19C18E7D006B5F17 /* InfoPlist.strings */; };
 		51F95A5319C18E7D006B5F17 /* viewTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F95A5219C18E7D006B5F17 /* viewTutorialTests.m */; };
+		51F95A5E19C22574006B5F17 /* KFGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F95A5D19C22574006B5F17 /* KFGrid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		51F95A4E19C18E7D006B5F17 /* viewTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viewTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		51F95A5019C18E7D006B5F17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		51F95A5219C18E7D006B5F17 /* viewTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewTutorialTests.m; sourceTree = "<group>"; };
+		51F95A5C19C22574006B5F17 /* KFGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFGrid.h; sourceTree = "<group>"; };
+		51F95A5D19C22574006B5F17 /* KFGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFGrid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				51F95A3619C18E7D006B5F17 /* KFAppDelegate.h */,
 				51F95A3719C18E7D006B5F17 /* KFAppDelegate.m */,
 				51F95A3919C18E7D006B5F17 /* Main.storyboard */,
+				51F95A5C19C22574006B5F17 /* KFGrid.h */,
+				51F95A5D19C22574006B5F17 /* KFGrid.m */,
 				51F95A3C19C18E7D006B5F17 /* KFViewController.h */,
 				51F95A3D19C18E7D006B5F17 /* KFViewController.m */,
 				51F95A3F19C18E7D006B5F17 /* Images.xcassets */,
@@ -252,6 +257,7 @@
 			files = (
 				51F95A3E19C18E7D006B5F17 /* KFViewController.m in Sources */,
 				51F95A3419C18E7D006B5F17 /* main.m in Sources */,
+				51F95A5E19C22574006B5F17 /* KFGrid.m in Sources */,
 				51F95A3819C18E7D006B5F17 /* KFAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
